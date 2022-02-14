@@ -16,7 +16,7 @@ cfg_timer = "10"
 cfg_script= 'shutdown -h 00:05 "[!] Storm detected nearby. Shutdown scheduled to protect device against power disruption, please complete your work"'
 cfg_go    = "no"
 
-print("Checking The National Weather Service for nearby storms in " + cfg_state + " ( " + cfg_cname  + " )  ...")
+#print("Checking The National Weather Service for nearby storms in " + cfg_state + " ( " + cfg_cname  + " )  ...")
 
 
 
@@ -38,7 +38,7 @@ blog_feed = feedparser.parse(feed_dat)
 posts = blog_feed.entries
 for post in posts:
 	if (cfg_cwarn or "Tornado Warning") in post.title and cfg_cname in post.summary:
-		print("[!] Severe Storm detected nearby ... (" + post.cap_areadesc + ")")
+		print("[?] Severe Storm detected nearby ... (" + post.cap_areadesc + ")")
 		cfg_go = "yes"
 
 # Only run once, even if multiple warnings for the same county
