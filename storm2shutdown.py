@@ -25,7 +25,7 @@ feed_url = "https://alerts.weather.gov/cap/"+ cfg_state.lower() +".php?x=0"
 feed_age = subprocess.check_output('find ./data.xml -mmin +' + cfg_timer, shell=True, universal_newlines=True)
 if len(feed_age) > 0:
 	os.system('wget --quiet -O "./data.xml" ' + feed_url + '');
-	print("[?] Data fetch from NWS")
+	print("[?] Data fetched from NWS (" + cfg_cname + ", " + cfg_state  + ")")
 else:
 	print("[!] Data backoff active (" + cfg_timer  + " minutes)")
 
