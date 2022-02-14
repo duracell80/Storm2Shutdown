@@ -1,5 +1,10 @@
 import feedparser
-import os, subprocess
+import os, subprocess, time
+
+def measure_temp():
+        temp = os.popen("vcgencmd measure_temp").readline()
+        return (temp.replace("temp=",""))
+
 
 # Change TN to your state for example KY
 # Change Davison to your county for example Benton
@@ -25,9 +30,10 @@ feed_url = "https://alerts.weather.gov/cap/"+ cfg_state.lower() +".php?x=0"
 feed_age = subprocess.check_output('find ./data.xml -mmin +' + cfg_timer, shell=True, universal_newlines=True)
 if len(feed_age) > 0:
 	os.system('wget --quiet -O "./data.xml" ' + feed_url + '');
-	print("[?] Data fetched from NWS (" + cfg_cname + ", " + cfg_state  + ")")
+	print("[i] Data fetched from NWS (" + cfg_cname + ", " + cfg_state  + ")")
 else:
-	print("[!] Data backoff active (" + cfg_timer  + " minutes)")
+	print("[i] Data backoff active (" + cfg_timer  + " minutes)")
+    print("[i] System (" + measure_temp() + ")")
 
 feed_xml = open("data.xml", "r")
 feed_dat = feed_xml.read().replace("cap:", "cap_")
