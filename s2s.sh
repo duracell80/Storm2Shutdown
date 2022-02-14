@@ -6,5 +6,5 @@ echo -e "- Change state and county alerted on in storm2shutdown.py"
 while true
 do
  python3 storm2shutdown.py
- sleep 900
+ sleep 300
 done
