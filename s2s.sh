@@ -6,4 +6,5 @@ echo -e "- Press [CTRL+C] to stop \n \n"
 while true
 do
  python3 storm2shutdown.py
+ sleep 900
 done
