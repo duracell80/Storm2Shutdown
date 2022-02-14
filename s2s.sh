@@ -1,7 +1,7 @@
 #!/bin/bash
-echo -e "\n \n- Data checked every 5 to 15 minutes"
-echo -e "- Run in Chron or with & to background"
+echo -e "\n \nWeather data checked via RSS from The National Weather Service every 5 to 15 minutes"
 echo -e "- Press [CTRL+C] to stop \n \n"
+echo -e "- Change state and county alerted on in storm2shutdown.py"
  
 while true
 do
