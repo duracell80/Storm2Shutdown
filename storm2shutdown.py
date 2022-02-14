@@ -33,7 +33,7 @@ if len(feed_age) > 0:
 	print("[i] Data fetched from NWS (" + cfg_cname + ", " + cfg_state  + ")")
 else:
 	print("[i] Data backoff active (" + cfg_timer  + " minutes)")
-    print("[i] System (" + measure_temp() + ")")
+	print("[i] System (" + measure_temp() + ")")
 
 feed_xml = open("data.xml", "r")
 feed_dat = feed_xml.read().replace("cap:", "cap_")
