@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8' standalone = 'yes'?>
+
+<!--
+This atom/xml feed is an index to active advisories, watches and warnings 
+issued by the National Weather Service.  This index file is not the complete 
+Common Alerting Protocol (CAP) alert message.  To obtain the complete CAP 
+alert, please follow the links for each entry in this index.  Also note the 
+CAP message uses a style sheet to convey the information in a human readable 
+format.  Please view the source of the CAP message to see the complete data 
+set.  Not all information in the CAP message is contained in this index of 
+active alerts.
+-->
+
+<feed
+xmlns = 'http://www.w3.org/2005/Atom'
+xmlns:cap = 'urn:oasis:names:tc:emergency:cap:1.1'
+xmlns:ha = 'http://www.alerting.net/namespace/index_1.0'
+>
+<!-- http-date = Mon, 02 Feb 2022 02:57:14 GMT -->
+<id>https://alerts.weather.gov/cap/tn.php?x=0</id>
+<logo>http://alerts.weather.gov/images/xml_logo.gif</logo>
+<generator>NWS CAP Server</generator>
+<updated>2022-02-14T02:57:14+00:00</updated>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Current Watches, Warnings and Advisories for Tennessee Issued by the National Weather Service</title>
+<link href="https://alerts.weather.gov/cap/tn.php?x=0"/>
+<entry>
+<id>https://alerts.weather.gov/cap/tn.php?x=0</id>
+<updated>2022-02-14T02:57:14+00:00</updated>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>There are no active watches, warnings or advisories</title>
+<link href="https://alerts.weather.gov/cap/tn.php?x=0"/>
+<summary>There are no active watches, warnings or advisories</summary>
+</entry>
+</feed>
