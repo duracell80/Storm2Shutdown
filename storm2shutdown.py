@@ -12,8 +12,8 @@ import os, subprocess
 cfg_state = "TN"
 cfg_cname = "Davidson"
 cfg_cwarn = "Severe Thunderstorm Warning"
-cfg_timer = "15"
-cfg_script= 'shutdown -h 00:10 "[!] Storm detected nearby. Shutdown scheduled to protect device against power disruption, please complete your work"'
+cfg_timer = "10"
+cfg_script= 'shutdown -h 00:05 "[!] Storm detected nearby. Shutdown scheduled to protect device against power disruption, please complete your work"'
 cfg_go    = "no"
 
 print("Checking The National Weather Service for nearby storms in " + cfg_state + " ( " + cfg_cname  + " )  ...")
