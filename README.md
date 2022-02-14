@@ -9,6 +9,8 @@ Useful for applications such as NAS or Headless Linux/Pi. To protect against dat
 https://alerts.weather.gov/cap/pdf/CAP%20v12%20guide%20web%2006052013.pdf
 
 ## Install
+Use PIP to get the feedparser
+
 ```
 $ cd ~/
 $ mkdir git
@@ -18,6 +20,9 @@ $ cd Storm2Shutdown
 $ chmod a+x *.sh
 $ ./install.sh
 ```
+
+## Configuration
+Change the first few lines at the start of storm2shutdown.py
 
 ## Usage
 Run as straight python:
