@@ -1,3 +1,2 @@
-# ignore data files
-*.csv
-*.xml
+# infosec ignore linux system data files
+powertop.csv
