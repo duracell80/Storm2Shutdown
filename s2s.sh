@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+echo -e "Storm2Shutdown - Looping mode"
 
 echo -e "\n \nWeather data obtained from The National Weather Service every 25 to 30 minutes"
 echo -e "- Press [CTRL+C] to stop"
