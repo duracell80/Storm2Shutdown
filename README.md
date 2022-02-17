@@ -35,9 +35,14 @@ Run as bash loop:
 $ ./s2s.sh
 `
 
-Run once in bash (on Chron etc):
+Run everything once for debugging/demo:
 `
 $ ./s2s_once.sh
+`
+
+Run just the weather and shutdown routine (on Chron etc):
+`
+$ ./s2s_chron.sh
 `
 
 ## Notes and ToDo
