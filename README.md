@@ -25,9 +25,9 @@ $ ./install.sh
 Change the first few lines at the start of storm2shutdown.py
 
 ## Usage
-Run as straight python:
+Run everything once for debugging/demo:
 `
-$ python3 storm2shutdown.py
+$ ./s2s_once.sh
 `
 
 Run as bash loop:
@@ -35,14 +35,14 @@ Run as bash loop:
 $ ./s2s.sh
 `
 
-Run everything once for debugging/demo:
-`
-$ ./s2s_once.sh
-`
-
-Run just the weather and shutdown routine (on Chron etc):
+Run just the weather and shutdown routine once (make reliable for Chron etc):
 `
 $ ./s2s_chron.sh
+`
+
+Run as straight python:
+`
+$ python3 storm2shutdown.py
 `
 
 ## Notes and ToDo
