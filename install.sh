@@ -1,4 +1,5 @@
 sudo apt-get install -y powertop
+sudo apt-get install -y libatlas-base-dev
 sudo apt-get install -y python3-pip
 
 sudo pip3 install --upgrade feedparser
