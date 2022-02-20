@@ -41,13 +41,20 @@ blog_feed = feedparser.parse(feed_dat)
 
 posts = blog_feed.entries
 for post in posts:
+        if "Tornado Watch" in post.title and cfg_cname in post.cap_areadesc:
+                print("[!] A Tornado Watch is in effect for your area")
+                cfg_go = "no"
+for post in posts:
+        if "High Wind Warning" in post.title and cfg_cname in post.cap_areadesc:
+                print("[!] A High Wind Warning is in effect for your area")
+                cfg_go = "no"
+for post in posts:
 	if "Wind Advisory" in post.title and cfg_cname in post.cap_areadesc:
-		print("[!] A wind advisory is in effect for your area")
+		print("[!] A Wind Advisory is in effect for your area")
 		cfg_go = "no"
-        
 for post in posts:
 	if "Thunderstorm Watch" in post.title and cfg_cname in post.cap_areadesc:
-		print("[!] A storm watch is in effect for your area")
+		print("[!] A Storm Watch is in effect for your area")
 		cfg_go = "no"
 
 for post in posts:
@@ -57,4 +64,5 @@ for post in posts:
 
 # Only run once, even if multiple warnings for the same county
 if cfg_go == "yes":
+	os.system("speaker-test -t sine -f 1000 -l 1")
 	os.system(cfg_script)

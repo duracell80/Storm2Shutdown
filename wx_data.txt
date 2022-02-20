@@ -1,0 +1,320 @@
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR SoapySDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/lee/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+Registered 122 out of 149 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Found Rafael Micro R820T tuner
+Exact sample rate is: 250000.000414 Hz
+[R82XX] PLL not locked!
+Sample rate set to 250000 S/s.
+Tuner gain set to Auto.
+Tuned to 433.920MHz.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:38
+model     : Acurite-6045M
+id        : 90
+channel   : B
+battery   : 1
+temperature: 27.1 F
+humidity  : 36
+strike_count: 5
+storm_distance: 31
+active_mode: 0
+rfi_detect: 0
+unk_status1: 0
+data_exception: 0
+raw_message: 805a6f248deb059f89
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:38
+model     : Acurite-6045M
+id        : 90
+channel   : B
+battery   : 1
+temperature: 27.1 F
+humidity  : 36
+strike_count: 5
+storm_distance: 31
+active_mode: 0
+rfi_detect: 0
+unk_status1: 0
+data_exception: 0
+raw_message: 805a6f248deb059f89
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:38
+model     : Acurite-6045M
+id        : 90
+channel   : B
+battery   : 1
+temperature: 27.1 F
+humidity  : 36
+strike_count: 5
+storm_distance: 31
+active_mode: 0
+rfi_detect: 0
+unk_status1: 0
+data_exception: 0
+raw_message: 805a6f248deb059f89
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:40
+model     : Acurite-Tower
+id        : 13772
+channel   : B
+battery_ok: 1
+Temperature: 32.0 F
+Humidity  : 45
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:40
+model     : Acurite-Tower
+id        : 13772
+channel   : B
+battery_ok: 1
+Temperature: 32.0 F
+Humidity  : 45
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:40
+model     : Acurite-Tower
+id        : 13772
+channel   : B
+battery_ok: 1
+Temperature: 32.0 F
+Humidity  : 45
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:49
+model     : Acurite-Tower
+id        : 6694
+channel   : C
+battery_ok: 1
+Temperature: 66.7 F
+Humidity  : 34
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:49
+model     : Acurite-Tower
+id        : 6694
+channel   : C
+battery_ok: 1
+Temperature: 66.7 F
+Humidity  : 34
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:49
+model     : Acurite-Tower
+id        : 6694
+channel   : C
+battery_ok: 1
+Temperature: 66.7 F
+Humidity  : 34
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:51
+model     : Acurite-609TXC
+id        : 210
+battery_ok: 0
+Temperature: 32.0 F
+Humidity  : 54
+status    : 10
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:51
+model     : Acurite-609TXC
+id        : 210
+battery_ok: 0
+Temperature: 32.0 F
+Humidity  : 54
+status    : 10
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:51
+model     : Acurite-609TXC
+id        : 210
+battery_ok: 0
+Temperature: 32.0 F
+Humidity  : 54
+status    : 10
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:51
+model     : Acurite-609TXC
+id        : 210
+battery_ok: 0
+Temperature: 32.0 F
+Humidity  : 54
+status    : 10
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:51
+model     : Acurite-609TXC
+id        : 210
+battery_ok: 0
+Temperature: 32.0 F
+Humidity  : 54
+status    : 10
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:51
+model     : Acurite-609TXC
+id        : 210
+battery_ok: 0
+Temperature: 32.0 F
+Humidity  : 54
+status    : 10
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:53
+model     : Acurite-Tower
+id        : 2235
+channel   : C
+battery_ok: 1
+Temperature: 65.3 F
+Humidity  : 35
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:53
+model     : Acurite-Tower
+id        : 2235
+channel   : C
+battery_ok: 1
+Temperature: 65.3 F
+Humidity  : 35
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:53
+model     : Acurite-Tower
+id        : 2235
+channel   : C
+battery_ok: 1
+Temperature: 65.3 F
+Humidity  : 35
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:57
+model     : Acurite-Tower
+id        : 13772
+channel   : B
+battery_ok: 1
+Temperature: 32.0 F
+Humidity  : 45
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:57
+model     : Acurite-Tower
+id        : 13772
+channel   : B
+battery_ok: 1
+Temperature: 32.0 F
+Humidity  : 45
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:34:57
+model     : Acurite-Tower
+id        : 13772
+channel   : B
+battery_ok: 1
+Temperature: 32.0 F
+Humidity  : 45
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:35:02
+model     : Acurite-6045M
+id        : 90
+channel   : B
+battery   : 1
+temperature: 27.1 F
+humidity  : 36
+strike_count: 5
+storm_distance: 31
+active_mode: 0
+rfi_detect: 0
+unk_status1: 0
+data_exception: 0
+raw_message: 805a6f248deb059f89
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:35:02
+model     : Acurite-6045M
+id        : 90
+channel   : B
+battery   : 1
+temperature: 27.1 F
+humidity  : 36
+strike_count: 5
+storm_distance: 31
+active_mode: 0
+rfi_detect: 0
+unk_status1: 0
+data_exception: 0
+raw_message: 805a6f248deb059f89
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:35:02
+model     : Acurite-6045M
+id        : 90
+channel   : B
+battery   : 1
+temperature: 27.1 F
+humidity  : 36
+strike_count: 5
+storm_distance: 31
+active_mode: 0
+rfi_detect: 0
+unk_status1: 0
+data_exception: 0
+raw_message: 805a6f248deb059f89
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:35:05
+model     : Acurite-Tower
+id        : 6694
+channel   : C
+battery_ok: 1
+Temperature: 66.7 F
+Humidity  : 34
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:35:05
+model     : Acurite-Tower
+id        : 6694
+channel   : C
+battery_ok: 1
+Temperature: 66.7 F
+Humidity  : 34
+Integrity : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2022-02-19 21:35:05
+model     : Acurite-Tower
+id        : 6694
+channel   : C
+battery_ok: 1
+Temperature: 66.7 F
+Humidity  : 34
+Integrity : CHECKSUM
+Time expired, exiting!
